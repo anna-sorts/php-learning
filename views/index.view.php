@@ -1,7 +1,7 @@
 <?php require ('partials/head.php'); ?>
 
 <h1>Submit your Name</h1>
-<form method="GET" action="/names">
+<form method="POST" action="/names">
 	<input name="name"></input>
 	<button type="submit">Submit</button>
 </form>
