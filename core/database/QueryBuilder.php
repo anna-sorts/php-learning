@@ -18,8 +18,3 @@ class QueryBuilder
 		return $statement->fetchAll(PDO::FETCH_CLASS);
 	}
 }
-
-
-
-
- ?>
