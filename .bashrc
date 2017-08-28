@@ -1,0 +1,5 @@
+export PATH="$PATH:$HOME/.rmv/bin"
+export PATH="~/bin:$PATH"
+export PATH="~/bin:$PATH"
+export PATH="vendor/bin:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
