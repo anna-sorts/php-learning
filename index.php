@@ -1,13 +1,9 @@
 <?php 
-	
-	require 'core/bootstrap.php';
-		
-	//$router = new Router;
 
-	//require 'routes.php';
-	//die(var_dump($app));
-	
-		
-	require Router::load('routes.php')
-		//->direct(Request::uri());
-		->direct(Request::uri(), Request::method());
+require 'vendor/autoload.php';
+require 'core/bootstrap.php';
+
+use App\Core\{Router, Request};
+
+Router::load('app/routes.php')
+    ->direct(Request::uri(), Request::method());
